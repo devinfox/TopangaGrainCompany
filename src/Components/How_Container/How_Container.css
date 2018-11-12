@@ -1,0 +1,11 @@
+.How_Container {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .how-container {
+      display: relative;
+      width: 100vw;
+    }
+  }

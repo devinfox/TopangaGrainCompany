@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Playfair;
+    src: url('./PlayfairDisplay-Regular.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: Avenir;
+    src: url('./Avenir.ttc') format('truetype');
+  }
+
+
+h2 {
+    font-family: Playfair;
+    font-size: 30px;
+}
+Pen-specific styles
+html, body, section {
+    height: 100%;
+  }
+  
+  body {
+    color: white;
+    font-family: sans-serif;
+    line-height: 150%;
+    text-align: center;
+   
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+
+  /* Pattern styles */
+  .how-container {
+    display: relative;
+    width: 100vw;
+  }
+
+  
+  .how-text {
+    background-color: transparent;
+    flex: 1;
+    margin: auto;
+    align-content: center;
+  }
+  
+  .how-image {
+    flex: 1;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+.how-paragraph {
+  padding: 0px 50px;
+  font-family: Avenir;
+  font-size: 14px;
+  text-align: left;
+  margin: auto;
+}
+

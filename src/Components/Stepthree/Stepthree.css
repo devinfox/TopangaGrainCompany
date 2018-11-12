@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Avenir;
+  src: url('../Steptwo/Avenir.ttc') format('truetype');
+}
+
+
+Pen-specific styles
+html, body, section {
+    height: 100%;
+  }
+  
+  body {
+    color: white;
+    font-family: sans-serif;
+    line-height: 150%;
+    text-align: center;
+   
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+
+  /* Pattern styles */
+  .how-container {
+    display: relative;
+    width: 100vw;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+  }
+
+  
+  .how-text {
+    background-color: transparent;
+    flex: 1;
+    margin: auto;
+    align-content: center;
+  }
+  
+  .how-image {
+    flex: 1;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+.how-paragraph {
+  padding: 0px 50px;
+}
+
+@media(min-width: 700px) {
+  .how-container {
+    display: flex;
+    width: 100vw;
+    border: none;
+  }
+}
+
+.how-paragraph-three {
+  font-size: 10px;
+  width: 75%;
+  margin: auto;
+  font-family: Avenir;
+}
+
+
+@media(max-width: 830px) {
+  .how-paragraph-three {
+    font-size: 10px;
+    font-family: Avenir;
+    padding-bottom: 10px;
+  }
+}
+
+
+@media(max-width: 700px) {
+  .how-paragraph-three {
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-family: Avenir;
+  }
+}
+
+@media(min-width: 830px) {
+  .how-paragraph-three {
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: Avenir;
+  }
+}

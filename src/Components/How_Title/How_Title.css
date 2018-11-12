@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Playfair;
+    src: url('./PlayfairDisplay-Regular.ttf') format('truetype');
+  }
+
+
+
+.container {
+    width: 100%;
+    background: white !important;
+    margin: auto;
+}
+
+.how_title {
+    width: 100%;
+    background: white;
+    margin: auto;
+    bottom: 50px;
+}
+
+.text {
+    color: #3f3f3f;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    font-family: Playfair;
+}

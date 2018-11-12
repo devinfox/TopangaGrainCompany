@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Avenir;
+    src: url('./Avenir.ttc') format('truetype');
+  }
+
+
+.chef-image {
+padding: 15px 15px; 
+float: left;
+}
+
+@media screen and (min-width: 700px) {
+    .chef-image {
+
+    display: flex;
+    margin: auto;
+    max-width: 33%;
+
+    }
+  }
+
+.article-text {
+    max-width: 75%;
+    margin:auto;
+    font-family: Avenir;
+}
+
+a {
+    color: skyblue;
+}

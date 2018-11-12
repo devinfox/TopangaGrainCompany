@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Avenir;
+    src: url('./Avenir.ttc') format('truetype');
+  }
+
+.NavBar {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 65px;
+    background-image: url("https://i.imgur.com/C7NSCjQ.png");
+    font-family: Avenir;
+    max-width: 100%;
+}
+
+.NavBar_navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 5rem;
+    
+}
+.NavBar_Logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
+
+.NavBar_items UL {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+ 
+.spacer {
+    flex: 1;
+}
+
+.NavBar_items li {
+    padding: 0 3rem;
+}
+
+.NavBar_items a {
+    color: white;
+    text-decoration: none;
+}
+
+.NavBar_navigation a:hover,
+.NavBar_items a:active {
+ color: silver;
+}
+

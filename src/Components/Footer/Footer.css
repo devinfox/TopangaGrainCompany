@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Avenir;
+    src: url('./Avenir.ttc') format('truetype');
+  }
+
+  .footer {
+      background: transparent;
+      margin: auto;
+      font-family: Avenir;
+      font-size: 12px;
+  }
+
+  .footer-container {
+    width: 100%;
+    height: 76px;
+    align-content: center;
+    
+  }
