@@ -53,3 +53,20 @@
  color: silver;
 }
 
+.NavBar_navigation {
+    align-content: center;
+    text-align: center;
+}
+
+@media(max-width: 700px) {
+    .logo-mobile {
+      text-align: center;
+    }
+    .NavBar_Logo {
+        display: inline-block;
+    }
+    .NavBar_items li {
+        padding: 0 1rem;
+    }
+  }
+
